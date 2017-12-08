@@ -1,4 +1,4 @@
-package com.yushan.module_compete;
+package com.yushan.module_compete.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
