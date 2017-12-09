@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ll_radioGroup"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:layout_alignParentBottom="true"
+    android:orientation="vertical">
+
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/tab_gray_line" />
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/bg_home_bottom"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:paddingTop="2dp">
+
+        <com.yushan.lib_base.widget.TabRadioButton
+            android:id="@+id/radioBtn_home"
+            app:drawableSize="30dp"
+            app:drawableTop="@drawable/btn_home_selector"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="@string/wanbu_myself"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="11sp" />
+
+        <com.yushan.lib_base.widget.TabRadioButton
+            android:id="@+id/radioBtn_compete"
+            app:drawableSize="30dp"
+            app:drawableTop="@drawable/btn_selector_compete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="@string/wanbu_compete"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="11sp" />
+
+        <com.yushan.lib_base.widget.TabRadioButton
+            android:id="@+id/radioBtn_message"
+            app:drawableSize="30dp"
+            app:drawableTop="@drawable/btn_selector_message"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="@string/wanbu_message"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="11sp"
+            android:visibility="gone" />
+
+
+        <com.yushan.lib_base.widget.TabRadioButton
+            android:id="@+id/radioBtn_discovery"
+            app:drawableSize="30dp"
+            app:drawableTop="@drawable/btn_selector_myself"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="@string/wanbu_home_club"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="11sp" />
+
+        <com.yushan.lib_base.widget.TabRadioButton
+            android:id="@+id/radioBtn_myself"
+            app:drawableSize="30dp"
+            app:drawableTop="@drawable/btn_selector_discovery"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:button="@null"
+            android:gravity="center"
+            android:paddingLeft="0dp"
+            android:text="@string/wanbu_home_device"
+            android:textColor="@drawable/tab_text_color_selector"
+            android:textSize="11sp" />
+    </RadioGroup>
+</LinearLayout>
+

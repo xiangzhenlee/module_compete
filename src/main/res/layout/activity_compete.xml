@@ -11,4 +11,6 @@
         android:text="module_compete"
         android:layout_centerInParent="true"/>
 
+    <include layout="@layout/layout_home_navigation" />
+
 </RelativeLayout>
