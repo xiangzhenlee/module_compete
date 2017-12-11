@@ -13,12 +13,12 @@ import android.widget.Toast;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
 import com.alibaba.android.arouter.launcher.ARouter;
-import com.yushan.gitmoudledemo.R;
 import com.yushan.lib_base.base.BaseActivity;
 import com.yushan.lib_base.base.BaseFragment;
 import com.yushan.lib_base.base.ViewManager;
 import com.yushan.lib_base.widget.NoScrollViewPager;
 import com.yushan.lib_base.widget.TabRadioButton;
+import com.yushan.module_compete.R;
 import com.yushan.module_compete.adapter.FragmentAdapter;
 
 import java.util.List;

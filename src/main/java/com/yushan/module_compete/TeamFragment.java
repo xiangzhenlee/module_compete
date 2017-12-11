@@ -6,7 +6,6 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.alibaba.android.arouter.facade.annotation.Route;
-import com.yushan.gitmoudledemo.R;
 import com.yushan.lib_base.base.BaseFragment;
 
 /**
