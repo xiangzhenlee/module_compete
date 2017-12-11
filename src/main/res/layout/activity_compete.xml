@@ -5,12 +5,14 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="module_compete"
-        android:layout_centerInParent="true"/>
+    <include
+        android:id="@+id/ll_radioGroup"
+        layout="@layout/layout_home_navigation" />
 
-    <include layout="@layout/layout_home_navigation" />
+    <com.yushan.lib_base.widget.NoScrollViewPager
+        android:id="@+id/container_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/ll_radioGroup" />
 
 </RelativeLayout>
